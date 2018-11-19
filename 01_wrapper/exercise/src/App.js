@@ -21,7 +21,7 @@ export class App extends React.Component {
     const { isFollowing } = this.state
     return (
       <div className="App">
-        <img src={avatar} className="avatar" />
+        <img src={avatar} className="avatar" alt="profile" />
         <h1 className="username">{name}</h1>
         <p className="followers">Followers: {this.props.followers + (isFollowing ? 1 : 0)}</p>
         <button className="follow-btn" onClick={this.toggleFollow} data-test-id="follow-btn">
