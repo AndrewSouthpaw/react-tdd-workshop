@@ -3,7 +3,7 @@ import { mount } from 'enzyme'
 import { App } from './App'
 
 /**
- * Objectives:
+ * Testing Objectives:
  * - [] test for the existence of an image
  * - [] test that we display number of followers based on props
  * - [] test that the button says "Follow"

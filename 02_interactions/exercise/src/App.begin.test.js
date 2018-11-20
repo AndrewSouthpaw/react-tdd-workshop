@@ -3,7 +3,7 @@ import { mount } from 'enzyme'
 import { App } from './App'
 
 /**
- * Objectives:
+ * Testing Objectives:
  * - [] clicking the Follow button increments the number of followers and changes button text to "Unfollow"
  * - [] clicking the "Unfollow" button decrements the number of followers and changes button text to "Follow"
  * - [] button to send a message is initially disabled
