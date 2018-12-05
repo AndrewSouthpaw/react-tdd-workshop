@@ -29,11 +29,6 @@ describe('App', () => {
     expect(followBtn(w).text()).toEqual('Follow')
   })
 
-  it('should foo', () => {
-    const w = mount(<App />)
-    sendMessageBtn(w).simulate('click')
-  })
-
   it('sending a message', () => {
     const w = mount(<App />)
 
